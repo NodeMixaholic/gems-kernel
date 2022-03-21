@@ -21,7 +21,7 @@ Oh and also: You really need an *i686 cross compiler,* I reccomend this one here
 Or for macOS, run this brew command (requires homebrew)
 
 ```
-brew install i686-elf-gcc
+brew install i686-elf-gcc nasm
 ```
 
 And then setup GRUB on macOS if you would wish to create an ISO, as explained here:
