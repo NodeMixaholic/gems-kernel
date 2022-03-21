@@ -24,6 +24,9 @@ Or for macOS, run this brew command (requires homebrew)
 brew install i686-elf-gcc
 ```
 
+And then setup GRUB on macOS, as explained here:
+https://wiki.osdev.org/GRUB_2#HDD_Image_Instructions_for_OS_X_users
+
 ~~(Hint, download LUA 5.0 source here: https://www.lua.org/ftp/lua-5.0.tar.gz)~~ Update: We are switching to mostly custom C/ASM
 
 Oh and a quick warning: *Test.sh / Qemu's PC SPEAKER is VERY LOUD. You will want to turn down your volume.*
