@@ -15,7 +15,14 @@ However, here are the dependencies (in ubuntu) in case you *want* to compile thi
 Update: You might want to install these:
 sudo apt install -y build-essential grub-common nasm gcc git qemu-system-x86 grub-pc-bin lua-socket xorriso gcc-8-multilib gcc-arm-none-eabi git
 
-Oh and also: You really need an *i686 cross compiler,* I reccomend this one here: https://drive.google.com/file/d/0Bw6lG3Ej2746STJaM2dNbC05elE/view?usp=sharing
+Oh and also: You really need an *i686 cross compiler,* I reccomend this one here for GNU/Linux: https://drive.google.com/file/d/0Bw6lG3Ej2746STJaM2dNbC05elE/view?usp=sharing
+
+
+Or for macOS, run this brew command (requires homebrew)
+
+```
+brew install i686-elf-gcc
+```
 
 ~~(Hint, download LUA 5.0 source here: https://www.lua.org/ftp/lua-5.0.tar.gz)~~ Update: We are switching to mostly custom C/ASM
 
